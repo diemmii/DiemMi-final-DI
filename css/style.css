@@ -1,0 +1,130 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+	margin: 0;
+	padding:0;
+}
+html{
+	scroll-behavior: smooth
+}
+body{
+	background: black;
+	color: white;
+	font-family: 'poppins', sans-serif;
+}
+header{
+	padding: 12px 0;
+}
+
+.logo{
+	float: left;
+}
+.logo img{
+		width:80px
+}
+.menu{
+	height: 100%;
+}
+.menu ul{
+	height: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.menu ul li{
+	margin: 0 20px;
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px
+}
+.menu ul li a:hover{
+	color: hotpink
+}
+.button{
+	display: flex;
+	align-items: center;
+/*	background: red;*/
+}
+.banner{
+	padding: 125px 0;
+}
+.banner h1{
+	font-size: 55px;
+	font-weight: 400;
+}
+.primary-color{
+	color: hotpink;
+}
+.icon-box{
+	display: flex;
+	align-items: center;
+}
+.icon-box img{
+	width: 24px;
+	margin-right: 20px;
+}
+.right-ct{
+	margin-right: 50px;
+}
+.left-banner{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.services{
+	padding: 60px 0;
+}
+.box{
+	text-align: center
+}
+.my-portfolio{
+	padding: 60px 0;
+	margin-top: 50px
+}
+.my-portfolio h1{
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 48px
+}
+.tab{
+	text-align: center;
+	margin-bottom: 24px;
+}
+.row{
+	text-align: center
+}
+
+.tapcontent{
+	border: 1px soild white;
+	animation: fadeEffect(1s);
+}
+.tapcontent img{
+	width: 300px;
+		
+}
+.tablinks{
+	padding: 5px 20px;
+	font-size: 18px;
+	background: none;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+.tab button:hover{
+	background: white;
+	color:black;
+}
+.tab button.active{
+	background: white;
+	color:black;
+}
+.contact{
+	display: flex;
+	justify-content: space-around;
+	padding:150px 0;
+	color: hotpink
+}
+

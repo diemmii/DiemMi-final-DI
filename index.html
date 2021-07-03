@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>flex</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/12css.css">
+	<link rel="stylesheet" href="css/hover.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<div class="container">
+				<div class="row">
+						<div class="col-1">
+							<div class="logo">
+								<a href="#"> <img src="img/logo hong.png" alt=""></a>
+							</div>
+						</div>
+<!--					logo-->
+						<div class="col-11">
+							<nav class="menu">
+								<ul>
+									<li><a href="#home">Home</a></li>
+									<li><a href="#about">About</a></li>
+									<li><a href="#portfolio">Portfolio</a></li>
+									<li><a href="#contact">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
+<!--				menu-->
+				</div>
+			</div>	
+		</header>
+		<main>
+			<section class="banner">
+				<div class="container">
+					<div class="row">
+						<div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" class="col-6 left-banner">
+							<h1>Tôi tên <span class="primary-color">Diễm Mi</span> <hr> là một Graphic designer & Ilustrator </h1>
+							<span>Sinh năm: 2002<br>Hiện đang sống và làm việc ở tp HCM</span>
+						</div>
+						<div data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500" class="col-6">
+							<img src="img/125935135_1007310513109185_6423570052887823413_n.jpg">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="services"id="about">
+				<div class="container">
+					<div data-aos="flip-right" class="row">
+						<div class="col-4 p3">
+							<div class="box hvr-grow">
+								<img src="img/log1.png" alt="">
+								<h3>Kỹ năng</h3>
+								<p>Thành thạo Photoshop, Ai, Id,...<br>Biết vẽ tay và chụp ảnh</p>
+							</div>
+						</div>
+<!--						box-->
+						<div class="col-4 p3">
+							<div class="box hvr-grow">
+								<img src="img/log2.png" alt="">
+								<h3>Học vấn</h3>
+								<p>Học mỹ thuật đa phương tiện tại Arena Multimedia (2020-2023)
+							</div>
+						</div>
+<!--					box-->
+						<div class="col-4 p3">
+							<div class="box hvr-grow">
+								<img src="img/og3.png" alt="">
+								<h3>Kỹ năng mềm</h3>
+								<p>làm việc nhóm tốt<br>Có kỹ năng giao tiếp</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<br><br> <br>
+				<hr>
+<!--				services-->
+			<section class="my-portfolyio"id="portfolio">
+					<div class="container">
+						<div class="row">
+							<div  data-aos="fade-up"
+     data-aos-anchor-placement="top-center" class="col-12">
+								<h1>My Portfolio</h1>
+								<div class="tab">
+								  <button class="tablinks" onclick="openCity(event, 'All')">All</button>
+								  <button class="tablinks" onclick="openCity(event, 'Illustration')">Illustration</button>
+								  <button class="tablinks" onclick="openCity(event, 'Photograph')">Photograph</button>
+								  <button class="tablinks" onclick="openCity(event, 'Photoshop')">Photoshop</button>
+								  
+								</div>
+
+								<div id="All" class="tabcontent">
+									 <img src="img/123741457_374211567367145_2721800734067524150_n.jpg" alt=""> 
+									<img src="img/125219259_3311430255622367_3956748310401446558_n.jpg" alt="" > 
+									<img src="img/176345199_820120771927439_8815682551026509607_n.jpg" alt="">
+									<img src="img/133519763_1033007120539524_6444561745364135054_n.jpg" alt="" > 
+								 	 <img src="img/cover xoan.jpg" alt=""> 
+									<img src="img/kinhs.jpg" alt=""> 
+									<img src="img/truyen nuoc bien.jpg" alt="" >
+									<img src="img/130239039_1276092229438313_2606705014532079311_n.jpg" alt="" >
+									
+								</div>
+								<div id="Illustration" class="tabcontent">
+								 	 <img src="img/cover xoan.jpg" alt="" > 
+									<img src="img/kinhs.jpg" alt="" > 
+									<img src="img/truyen nuoc bien.jpg" alt="" >
+									<img src="img/130239039_1276092229438313_2606705014532079311_n.jpg" alt="" >
+									
+								</div>
+
+								<div id="Photograph" class="tabcontent">
+								  	 <img src="img/123741457_374211567367145_2721800734067524150_n.jpg" alt="" > 
+									<img src="img/125219259_3311430255622367_3956748310401446558_n.jpg" alt=""> 
+									<img src="img/176345199_820120771927439_8815682551026509607_n.jpg" alt="">
+								</div>
+								<div id="Photoshop" class="tabcontent">
+								  	 <img src="img/133519763_1033007120539524_6444561745364135054_n.jpg" alt=""> 
+									
+								</div>
+							</div>
+						</div>
+					</div>
+			</section>
+		</main>
+		<br><br>
+		<hr>
+		<footer>
+			<div class="contact"id="contact">
+				<div class="icon-box hvr-pulse"data-aos="fade-right">
+<!--
+					<div class="img-icon">
+						<img src="img/phone.png" alt="">
+					</div>
+-->
+					<span>Phone: 0123 456 789</span>
+				</div>
+				<div class="icon-box right-ct  hvr-pulse"data-aos="fade-left">
+<!--
+					<div class="img-icon">										<img src="img/email.png" alt="">
+					</div>
+-->
+					<span>Email: hello@example.com</span>
+				</div>
+			</div>		
+		</footer>
+	</div>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+  AOS.init();
+</script>
+<!--				AOS-->
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+</body>
+</html>
